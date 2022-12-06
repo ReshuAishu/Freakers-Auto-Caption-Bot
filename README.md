@@ -26,7 +26,7 @@ This Repo is Telegram Channel Code to help build a bot that automatically adds c
 * `app_id` : Get this value from [telegram.org](https://my.telegram.org/apps) or [@MT_MyTelegramOrg_Bot](https://t.me/MT_MyTelegramOrg_Bot) .
 * `api_hash` : Get this value from [telegram.org](https://my.telegram.org/apps) or [@MT_MyTelegramOrg_Bot](https://t.me/MT_MyTelegramOrg_Bot) .
 * `bot_token` : Create a bot using [@BotFather](https://telegram.dog/BotFather), and get the Telegram API token .
-* `custom_caption` : your caption. add {file_name} to get file original name. More info to watch [YT TUTORIAL](https://github.com/PR0FESS0R-99) .
+* `custom_caption` : your caption. add {file_name} to get file original name. More info to watch [YT TUTORIAL](https://youtu.be/n68FHmeZAfU) .
 
 ### Made With 
 
