@@ -45,7 +45,7 @@ This Repo is Telegram Channel Code to help build a bot that automatically adds c
 
 [Follow On InstaGram](https://www.instagram.com/mrk_yt_)
 
-[Subscribe YouTube Channel](https://youtube.com/c/MoTech_YT)
+[Subscribe YouTube Channel](https://youtube.com/@greymattersyt)
 
 ### Credits
 
