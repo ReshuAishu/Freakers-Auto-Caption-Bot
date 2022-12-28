@@ -19,7 +19,7 @@ start_message = """
 <b>@freakersfilmy</b>"""
 
 about_message = """
-<b><i>ᴍʏ ɴᴀᴍᴇ : [AutoCaption](t.me/{username})</b>\n
+<b><i>ᴍʏ ɴᴀᴍᴇ : [ғʀᴇᴀᴋᴇʀs ᴄᴀᴘᴛɪᴏɴ ʙᴏᴛ](t.me/{username})\n
 ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href=https://www.instagram.com/naughty__nonsense/>ᴍᴀɴᴀғ</a>\n
 ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ : <a href=https://t.me/freakersfilmy>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>\n
 ᴍᴏᴠɪᴇ ᴜᴘᴅᴀᴛᴇs : <a href=https://t.me/freakersmovie>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>\n
@@ -80,7 +80,7 @@ def get_file_details(update: pyrogram.types.Message):
 def start_buttons(bot, update):
   bot = bot.get_me()
   buttons = [[
-   pyrogram.types.InlineKeyboardButton("𝑴𝒚 𝑮𝒓𝒐𝒖𝒑🍃", url="t.me/GreyMatter_Bots"),
+   pyrogram.types.InlineKeyboardButton("𝑴𝒚 𝑮𝒓𝒐𝒖𝒑🍃", url="t.me/freakersfilmy"),
    pyrogram.types.InlineKeyboardButton("𝑨𝒃𝒃𝒐𝒖𝒕 𝑴𝒆🤗", callback_data="about")
    ],[
    pyrogram.types.InlineKeyboardButton("𝑨𝒅𝒅 𝑴𝒆 𝒀𝒐𝒖𝒓 𝑪𝒉𝒂𝒏𝒏𝒆𝒍", url=f"http://t.me/{bot.username}?startchannel=true")
