@@ -16,15 +16,22 @@ start_message = """
 <b>👋Hello {}</b>
 <b>I am an AutoCaption bot</b>
 <b>All you have to do is add me to your channel and I will show you my power</b>
-<b>@GreyMatter_Bots</b>"""
+<b>@freakersfilmy</b>"""
 
 about_message = """
-<b>• Name : [AutoCaption](t.me/{username})</b>
-<b>• Developer : [GreyMatter](https://t.me/GreyMatter_Owner)
-<b>• Language : Python3</b>
-<b>• Library : Pyrogram v{version}</b>
-<b>• Updates : <a href=https://t.me/GreyMatter_Bots>Click Here</a></b>
-<b>• Source Code : <a href=https://github.com/Greymattersbot/AutoCaption-BoT>Click Here</a></b>"""
+<b><i>ᴍʏ ɴᴀᴍᴇ : [AutoCaption](t.me/{username})</b>\n
+ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href=https://www.instagram.com/naughty__nonsense/>ᴍᴀɴᴀғ</a>\n
+ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ : <a href=https://t.me/freakersfilmy>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>\n
+ᴍᴏᴠɪᴇ ᴜᴘᴅᴀᴛᴇs : <a href=https://t.me/freakersmovie>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>\n
+sᴇʀɪᴇs ɢʀᴏᴜᴘ : <a href=https://t.me/FF_Series_Only>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>\n
+sᴇʀɪᴇs ᴜᴘᴅᴀᴛᴇs : <a href=https://t.me/freakers_series>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>\n
+sᴇʀɪᴇs ʙᴏᴛ  : <a href=https://t.me/ffseriesbot>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>\n
+18+ ʙᴏᴛ : <a href=https://t.me/A4_Adultsbot>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>\n
+ʟᴀɴɢᴜᴀɢᴇ : ᴘʏᴛʜᴏɴ 3\n
+ꜰʀᴀᴍᴇᴡᴏʀᴋ : ᴘʏʀᴏɢʀᴀᴍ\n
+ʜᴏsᴛᴇᴅ ᴏɴ : <a href=https://railway.app/>ʀᴀɪʟᴡᴀʏ</a>\n
+sᴏᴜʀᴄᴇ  : <a href=https://github.com/>ɢɪᴛʜᴜʙ</a>\n</i></b>
+"""
 
 @AutoCaptionBot.on_message(pyrogram.filters.private & pyrogram.filters.command(["start"]))
 def start_command(bot, update):
@@ -73,16 +80,16 @@ def get_file_details(update: pyrogram.types.Message):
 def start_buttons(bot, update):
   bot = bot.get_me()
   buttons = [[
-   pyrogram.types.InlineKeyboardButton("Updates", url="t.me/GreyMatter_Bots"),
-   pyrogram.types.InlineKeyboardButton("About 🤠", callback_data="about")
+   pyrogram.types.InlineKeyboardButton("𝑴𝒚 𝑮𝒓𝒐𝒖𝒑🍃", url="t.me/GreyMatter_Bots"),
+   pyrogram.types.InlineKeyboardButton("𝑨𝒃𝒃𝒐𝒖𝒕 𝑴𝒆🤗", callback_data="about")
    ],[
-   pyrogram.types.InlineKeyboardButton("➕️ Add To Your Channel ➕️", url=f"http://t.me/{bot.username}?startchannel=true")
+   pyrogram.types.InlineKeyboardButton("𝑨𝒅𝒅 𝑴𝒆 𝒀𝒐𝒖𝒓 𝑪𝒉𝒂𝒏𝒏𝒆𝒍", url=f"http://t.me/{bot.username}?startchannel=true")
    ]]
   return pyrogram.types.InlineKeyboardMarkup(buttons)
 
 def about_buttons(bot, update):
   buttons = [[
-   pyrogram.types.InlineKeyboardButton("🏠 Back To Home 🏠", callback_data="start")
+   pyrogram.types.InlineKeyboardButton("𝑩𝒂𝒄𝒌 𝑻𝒐 𝑯𝒐𝒎𝒆", callback_data="start")
    ]]
   return pyrogram.types.InlineKeyboardMarkup(buttons)
 
