@@ -2,9 +2,9 @@ import pyrogram, os, asyncio
 
 try: app_id = int(os.environ.get("app_id", '4011894'))
 except Exception as app_id: print(f"⚠️ App ID Invalid {app_id}")
-try: api_hash = os.environ.get("api_hash", None)
+try: api_hash = os.environ.get("api_hash", '56ac06547b5d8af50493e104feed8053')
 except Exception as api_id: print(f"⚠️ Api Hash Invalid {api_hash}")
-try: bot_token = os.environ.get("bot_token", None)
+try: bot_token = os.environ.get("bot_token", '1736163316:AAEkXROTw-c3nAp-LsxWGMaWeTmLpRXGEpI')
 except Exception as bot_token: print(f"⚠️ Bot Token Invalid {bot_token}")
 try: custom_caption = os.environ.get("custom_caption", "<b>ᴛɪᴛʟᴇ:</b> <code>{file_name}</code>\n▬▬▬▬▬▬▬▬▬▬▬▬\n🍃<b><i>ᴍᴏᴠɪᴇs ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ</b></i>🍃\n<i>https://t.me/+HxPeOzEU3nlmMTdl</i>\n🍃<b><i>sᴇʀɪᴇs ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ</b></i>🍃\n<i>https://t.me/+4NvHgqi9_FRhNjY1</i>\n▬▬▬▬▬▬▬▬▬▬▬▬\n☘𝙅𝙤𝙞𝙣:-<b><i>https://t.me/Freakers_Filmy</b></i>\n\n🧐𝙁𝙧𝙚𝙖𝙠𝙚𝙧𝙨🎭𝙁𝙞𝙡𝙢𝙮™🍿©\n100% ғᴀꜱᴛ & ϙᴜᴀʟɪᴛʏ\n▬▬▬▬▬▬▬▬▬▬▬▬")
 except Exception as custom_caption: print(f"⚠️ Custom Caption Invalid {custom_caption}")
