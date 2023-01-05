@@ -6,7 +6,7 @@ try: api_hash = os.environ.get("api_hash", None)
 except Exception as api_id: print(f"⚠️ Api Hash Invalid {api_hash}")
 try: bot_token = os.environ.get("bot_token", None)
 except Exception as bot_token: print(f"⚠️ Bot Token Invalid {bot_token}")
-try: custom_caption = os.environ.get("custom_caption", "ᴛɪᴛʟᴇ: <code>{file_name}</code>\n▬▬▬▬▬▬▬▬▬▬▬▬\n🍃<b><i>Movies Update Channel</b></i>🍃\n<i>@freakersmovie</i>\n🍃<b><i>Series Update Channel</b></i>🍃\n<i>@freakers_series</i>\n▬▬▬▬▬▬▬▬▬▬▬▬\n☘𝙅𝙤𝙞𝙣:-<b><i>https://t.me/freakersmovie</b></i>\n\n🧐𝙁𝙧𝙚𝙖𝙠𝙚𝙧𝙨🎭𝙁𝙞𝙡𝙢𝙮™🍿©\n100% ғᴀꜱᴛ & ϙᴜᴀʟɪᴛʏ\n▬▬▬▬▬▬▬▬▬▬▬▬")
+try: custom_caption = os.environ.get("custom_caption", "<b>ᴛɪᴛʟᴇ:</b> <code>{file_name}</code>\n▬▬▬▬▬▬▬▬▬▬▬▬\n🍃<b><i>ᴍᴏᴠɪᴇs ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ</b></i>🍃\n<i>https://t.me/+HxPeOzEU3nlmMTdl</i>\n🍃<b><i>sᴇʀɪᴇs ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ</b></i>🍃\n<i>https://t.me/+4NvHgqi9_FRhNjY1</i>\n▬▬▬▬▬▬▬▬▬▬▬▬\n☘𝙅𝙤𝙞𝙣:-<b><i>https://t.me/Freakers_Filmy</b></i>\n\n🧐𝙁𝙧𝙚𝙖𝙠𝙚𝙧𝙨🎭𝙁𝙞𝙡𝙢𝙮™🍿©\n100% ғᴀꜱᴛ & ϙᴜᴀʟɪᴛʏ\n▬▬▬▬▬▬▬▬▬▬▬▬")
 except Exception as custom_caption: print(f"⚠️ Custom Caption Invalid {custom_caption}")
 
 AutoCaptionBot = pyrogram.Client(
@@ -21,10 +21,10 @@ start_message = """
 about_message = """
 <b><i>ᴍʏ ɴᴀᴍᴇ : [ғʀᴇᴀᴋᴇʀs ᴄᴀᴘᴛɪᴏɴ ʙᴏᴛ](t.me/{username})\n
 ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href=https://www.instagram.com/naughty__nonsense/>ᴍᴀɴᴀғ</a>\n
-ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ : <a href=https://t.me/freakersfilmy>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>\n
-ᴍᴏᴠɪᴇ ᴜᴘᴅᴀᴛᴇs : <a href=https://t.me/freakersmovie>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>\n
+ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ : <a href=https://t.me/Freakers_Filmy>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>\n
+ᴍᴏᴠɪᴇ ᴜᴘᴅᴀᴛᴇs : <a href=https://t.me/+HxPeOzEU3nlmMTdl>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>\n
 sᴇʀɪᴇs ɢʀᴏᴜᴘ : <a href=https://t.me/FF_Series_Only>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>\n
-sᴇʀɪᴇs ᴜᴘᴅᴀᴛᴇs : <a href=https://t.me/freakers_series>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>\n
+sᴇʀɪᴇs ᴜᴘᴅᴀᴛᴇs : <a href=https://t.me/+4NvHgqi9_FRhNjY1>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>\n
 sᴇʀɪᴇs ʙᴏᴛ  : <a href=https://t.me/ffseriesbot>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>\n
 18+ ʙᴏᴛ : <a href=https://t.me/A4_Adultsbot>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>\n
 ʟᴀɴɢᴜᴀɢᴇ : ᴘʏᴛʜᴏɴ 3\n
