@@ -80,7 +80,7 @@ def get_file_details(update: pyrogram.types.Message):
 def start_buttons(bot, update):
   bot = bot.get_me()
   buttons = [[
-   pyrogram.types.InlineKeyboardButton("𝑴𝒚 𝑮𝒓𝒐𝒖𝒑🍃", url="t.me/freakersfilmy"),
+   pyrogram.types.InlineKeyboardButton("𝑴𝒚 𝑮𝒓𝒐𝒖𝒑🍃", url="t.me/Freakers_Filmy"),
    pyrogram.types.InlineKeyboardButton("𝑨𝒃𝒐𝒖𝒕 𝑴𝒆🤗", callback_data="about")
    ],[
    pyrogram.types.InlineKeyboardButton("𝑨𝒅𝒅 𝑴𝒆 𝒀𝒐𝒖𝒓 𝑪𝒉𝒂𝒏𝒏𝒆𝒍", url=f"http://t.me/{bot.username}?startchannel=true")
@@ -94,6 +94,6 @@ def about_buttons(bot, update):
   return pyrogram.types.InlineKeyboardMarkup(buttons)
 
 print("Telegram AutoCaption V1 Bot Start")
-print("Bot Created By https://github.com/Greymattersbot")
+print("Bot Created By https://t.me/Freakers_Filmy")
 
 AutoCaptionBot.run()
